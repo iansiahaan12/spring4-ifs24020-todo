@@ -6,7 +6,17 @@
 
 - Melakukan inisialisasi proyek
 - Menambahkan method 'sayHello()' pada HomeController
-  = menambahkan pengujian untuk method 'sayHello()'
+- menambahkan pengujian untuk method 'sayHello()'
+
+### Update dari logs
+
+- Menambahkan endpoint informasiNim/{nim} untuk decoding informasi NIM
+- Menambahkan endpoint perolehanNilai/{strBase64} untuk perhitungan nilai akademik
+- Menambahkan endpoint perbedaanL/{strBase64} untuk analisis pattern L pada matriks
+- Menambahkan endpoint palingTer/{strBase64} untuk analisis frekuensi dan statistik data numerik
+- Implementasi sistem konversi nilai ke huruf mutu dengan ambang batas yang terdefinisi
+- Penambahan kamus program studi untuk decoding NIM
+- Validasi input Base64 dan handling exception yang komprehensif
 
 ## Syntax
 
